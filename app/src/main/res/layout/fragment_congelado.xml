@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments.FragmentHarina">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/pescados"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="368dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Garantía en la preservación de los productos marinos con una adecuada cadena de
+        frio desde la captura hasta la entrega. Damos atención a mercados en el interior y exterior
+        del país. Las especies que ponemos a disposición de los clientes son jurel, caballa, pejerrey,
+        perico, pota, anchoveta y calamar."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25dp" />
+
+</FrameLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActNosotros">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondonosotros"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="¿QUIÉNES SOMOS?"
+                android:textColor="#6836AE"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="304dp"
+                android:layout_height="308dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/us" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:gravity="center"
+                android:text="PANAFOODS es una empresa líder en producción de conservas, Harina y aceite de pescado, cuyas operaciones se iniciaron en 1999, y cuya reingeniería e incremento de capacidad se da en octubre del 2009 con el ingreso del Grupo “Ramírez Anaya” como propietarios, la empresa se ubica en la región Ancash, en el Distrito de Santa a 10 min. De la Ciudad de Chimbote. La visión y el compromiso de todos los colaboradores involucrados con los objetivos de la empresa, dan como resultado que PANAFOODS se convirtiera rápidamente en la empresa conservera líder en el Perú, ocupando anualmente el primer lugar en producciones y casi 350 días de trabajo/año, generando aproximadamente 400 puestos de empleos directos."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="VISIÓN"
+                android:textColor="#6836AE"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:gravity="center|center_horizontal"
+                android:text="Ser una empresa líder en Latinoamérica y el Caribe en la producción e innovación de alimentos de calidad, con una visión enfocada al cliente y generación de rentabilidad."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="MISIÓN"
+                android:textColor="#6836AE"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Satisfacer las necesidad de nuestros clientes con confiabilidad a largo plazo, ofreciendo productos de alta calidad acorde con las necesidades del mercado, con mejora continua en cada uno de nuestros procesos, respetando el medio ambiente y la responsabilidad social."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="VALORES"
+                android:textColor="#6836AE"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="152dp"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="•	Trabajo en equipo •	Compromiso •	Integridad  •Responsabilidad "
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="INFORMACIÓN GENERAL"
+                android:textColor="#6836AE"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="30dp"
+                android:text="DENOMINACION: PACIFIC NATURAL FOODS S.A.C \nR.U.C.: 20340941790 \nOFICINA PRINCIPAL: Jr. Lecca 270. Chorrillos, Lima.\TELÉFONO: 0511-2513469"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

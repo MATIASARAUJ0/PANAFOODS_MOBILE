@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_panafoods_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_panafoods_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActMenuAdministrador"
+            android:theme="@style/Theme.AppAdmin"
+            android:exported="true"/>
+        <activity
+            android:name=".ActLoginAdmin"
+            android:exported="true"/>
+        <activity
+            android:name=".ActEmpleados"
+            android:exported="true"/>
+        <activity
+            android:name=".ActRegistrarEmpleados"
+            android:exported="true"/>
+        <activity
+            android:name=".ActListarEmpleados"
+            android:exported="true"/>
+        <activity
+            android:name=".ActListarPedidos"
+            android:exported="true"/>
+        <activity
+            android:name=".ActRegistrarPedidos"
+            android:exported="true"/>
+        <activity
+            android:name=".ActDirectorio"
+            android:exported="true"/>
+        <activity
+            android:name=".ActPedidos"
+            android:exported="true"/>
+        <activity
+            android:name=".ActDesarrolladores"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ActLogin"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ActInicio"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

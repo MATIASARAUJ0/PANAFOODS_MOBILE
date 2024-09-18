@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".ActProductos">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Productos"
+        android:textColor="#DC0B5DD8"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHarina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Harina de Pescado"
+            app:backgroundTint="#B5A9A9" />
+
+        <Button
+            android:id="@+id/btnCongelados"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Congelados"
+            app:backgroundTint="#B5A9A9" />
+
+        <Button
+            android:id="@+id/btnAceite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Aceite de Pescado"
+            app:backgroundTint="#B5A9A9" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorFragments"
+        android:layout_width="375dp"
+        android:layout_height="598dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+
+
+
+

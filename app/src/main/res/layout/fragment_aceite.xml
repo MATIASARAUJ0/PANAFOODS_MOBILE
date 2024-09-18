@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments.FragmentHarina">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/aceite"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="368dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="El aceite de pescado es parte fundamental de la industria nutraceutica y farmaceutica
+        debido a su alto contenido de EPA, DHA, Omega-3 y ácidos grasos indispensables para la elaboración
+        de suplementos nutricionales enriquecidos, tambien el adecuado funcionamiento del cerebro."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25dp" />
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments.FragmentHarina">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/aceite"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="368dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Producimos harina de pescado con altos estandares en calidad y con alto valor nutricional
+            (gran concentración de protenínas de alta calidad, gran aporte en Omega-3, DHA Y EP). Nuetra harina es producida
+            con excelente calidad para satisfacer a nuestros clientes y mercados como el de alimentación animal."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="25dp" />
+
+</FrameLayout>

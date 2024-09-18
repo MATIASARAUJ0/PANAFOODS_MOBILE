@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pacific Natural Foods</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mi_texto"><u>!Ingresa aquí¡</u></string>
+</resources>
